@@ -1,0 +1,28 @@
+<apex:page standardController="Account" sidebar="false">
+    {!$User.Email}
+    {!$User.FirstName}  
+    {!$User.LastName}   
+    {!$User.ProfileId} 
+    {!$UserRole.Name} 
+    {!$Profile.Name}
+    {!$Label.isPrimaryCheckError}
+    <apex:form >
+        <apex:pageBlock >
+                <!--<apex:commandButton value="Save"/>-->
+            <apex:pageblockButtons >
+                <apex:commandButton value="Save" action="{!Save}"/>
+                <apex:commandButton value="Cancel" action="{!Cancel}"/>
+            </apex:pageblockButtons>
+            <apex:pageblockSection >
+                   <!-- <apex:input label="Name"/> to use thing we need to have docType = "html-5.0" in the page -->
+                   <!-- <apex:inputText label="Description"/> -->
+                       <!--<apex:inputField value="{!Account.Name}" rendered="{!$Profile.Name !='System Administrator'}"/>-->
+                       <apex:inputField value="{!Account.Name}" label="Customer Name"/>
+                       <apex:inputField value="{!Account.Account_Expiry_Date__c}"/> <!--rendered="{!$Profile.Name !='System Administrator'}"-->
+                       <apex:inputField value="{!Account.Country__c}"/>
+                       <apex:inputField value="{!Account.State__c}"/>
+                       <apex:inputCheckbox value="{!Account.Is_Available_for_Transition__c}"/>
+            </apex:pageblockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

@@ -1,0 +1,32 @@
+<apex:page standardController="Contact" recordSetVar="contacts">
+    <apex:repeat value="{!contacts}" var="c">
+        <div class="name">
+            <apex:outputText value="{!c.FirstName + ' ' + c.LastName}"/>
+        </div>
+    </apex:repeat>
+    
+    
+    <!--use Page Block Table -->
+    <apex:pageBlock title="All Contacts List">
+        <apex:pageBlockTable value="{!contacts}" var="c">
+            <apex:column value="{!c.Id}"/>
+            <apex:column value="{!c.FirstName}"/>
+            <apex:column value="{!c.LastName}"/>
+            <apex:column value="{!c.Email}"/>
+        </apex:pageBlockTable>
+    </apex:pageBlock>
+    
+    
+    <!-- Check with Data Table -->
+    <apex:dataTable value="{!Contacts}" var="c" rows="21">
+        <apex:column value="{!c.Id}"/>
+        <apex:column value="{!c.FirstName}"/>
+        <apex:column value="{!c.LastName}"/>
+         <apex:column value="{!c.Email}"/>
+    </apex:dataTable>
+    
+    
+    
+    
+    
+</apex:page>

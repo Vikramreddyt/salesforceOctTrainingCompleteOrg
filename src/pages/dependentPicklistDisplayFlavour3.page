@@ -1,0 +1,17 @@
+<apex:page standardController="Account">
+    <apex:form >
+        <!-- other form elements ... -->
+    
+        <apex:outputPanel id="locationPicker">
+            <apex:outputField value="{!Account.SLA__c}"> 
+                <apex:inlineEditSupport event="ondblClick" /> 
+            </apex:outputField>
+            <apex:outputField value="{!Account.UpsellOpportunity__c}"> 
+                <apex:inlineEditSupport event="ondblClick" /> 
+            </apex:outputField>
+            
+        </apex:outputPanel>
+        <!-- ... -->
+        <apex:commandButton value="Refresh Picklists" reRender="locationPicker" />
+    </apex:form>
+</apex:page>

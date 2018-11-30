@@ -1,0 +1,22 @@
+{
+    "projectName": "2018 Nov 30 SFOCT OrgBackup",
+    "username": "vikram_oct_sft@gmail.com",
+    "id": "aef3df70-f44c-11e8-b678-f5997a1e9542",
+    "namespace": "",
+    "orgType": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "instanceUrl": "https://ap4.salesforce.com",
+    "workspace": "D:\\Mavens Mate Projects",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "ApprovalProcess",
+        "CustomLabels",
+        "Profile",
+        "SharingRules",
+        "StaticResource",
+        "Workflow"
+    ]
+}

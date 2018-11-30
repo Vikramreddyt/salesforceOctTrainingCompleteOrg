@@ -1,0 +1,19 @@
+[
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Ad6F000000hGdnSAE"
+        },
+        "Id": "0Ad6F000000hGdnSAE",
+        "AuraDefinitionBundleId": "0Ab6F000000gTAiSAM",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Ab6F000000gTAiSAM"
+            },
+            "DeveloperName": "testComp"
+        },
+        "DefType": "COMPONENT",
+        "Format": "XML"
+    }
+]

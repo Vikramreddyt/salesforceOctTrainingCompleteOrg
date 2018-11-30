@@ -1,0 +1,20 @@
+Hi {!Customers__c.Name} ,
+                       Welcome to all new Retail Marketing App, and thanks for choosing {!Customers__c.Outlet__c} as your outlet. We are exited to have you welcome abord.
+
+Please find the Following Details
+
+Customer Email Id :   {!Customers__c.Customer_Email__c}         
+Customer Phone Number : {!Customers__c.Customer_Phone__c}
+Date of Birth : {!Customers__c.DOB__c}
+Date of Joining : {!Customers__c.DOJ__c}
+Distance from the Store : {!Customers__c.Distance__c} KM
+Subscription Type : {!Customers__c.Subscription_Type__c}
+Renewal Date : {!Customers__c.Renewal_Date__c}
+
+
+To check your record please go through this link 
+{!Customers__c.Link}
+
+Thanks and Regards,
+
+{!Customers__c.Outlet__c} Admin.

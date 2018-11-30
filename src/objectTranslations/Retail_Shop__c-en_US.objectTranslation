@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Retail Shop</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Retail Shops</value>
+    </caseValues>
+    <fields>
+        <label><!-- Average Q1 Income --></label>
+        <name>Average_Q1_Income__c</name>
+    </fields>
+    <fields>
+        <label><!-- Count Of Outlets --></label>
+        <name>Count_Of_Outlets__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Min of Q1 Income --></label>
+        <name>Min_of_Q1_Income__c</name>
+    </fields>
+    <fields>
+        <label><!-- Outlets Count --></label>
+        <name>Outlets_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Retail Shop Id --></label>
+        <name>Retail_Shop_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Retail Shop Owner --></label>
+        <name>Retail_Shop_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- SUM of Q1 Income --></label>
+        <name>SUM_of_Q1_Income__c</name>
+    </fields>
+    <fields>
+        <label><!-- SUM of Q2 Income --></label>
+        <name>SUM_of_Q2_Income__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>State__c</name>
+    </fields>
+    <fields>
+        <label><!-- is Active --></label>
+        <name>is_Active__c</name>
+    </fields>
+    <layouts>
+        <layout>Retail Shop Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

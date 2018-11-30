@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Customer</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Customer</value>
+    </caseValues>
+    <fields>
+        <label><!-- Begins With --></label>
+        <name>Begins_With__c</name>
+    </fields>
+    <fields>
+        <label><!-- Browser More Details --></label>
+        <name>Browser_More_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Celed Value --></label>
+        <name>Celed_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contains --></label>
+        <name>Contains__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Location --></label>
+        <name>Current_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Time --></label>
+        <name>Current_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Value --></label>
+        <name>Current__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Email --></label>
+        <name>Customer_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Phone --></label>
+        <name>Customer_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Status --></label>
+        <name>Customer_Status__c</name>
+        <picklistValues>
+            <masterLabel>Deactivate the Customer</masterLabel>
+            <translation><!-- Deactivate the Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Joined</masterLabel>
+            <translation><!-- Joined --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Re Joined</masterLabel>
+            <translation><!-- Re Joined --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Removed from Subscription</masterLabel>
+            <translation><!-- Removed from Subscription --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suspended from Subscription</masterLabel>
+            <translation><!-- Suspended from Subscription --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- DOB --></label>
+        <name>DOB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Joining --></label>
+        <name>DOJ__c</name>
+    </fields>
+    <fields>
+        <label><!-- DateTimeValue --></label>
+        <name>DateTimeValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Day of Joining(Text) --></label>
+        <name>Day_of_Joining_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destination Location --></label>
+        <name>Destination_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distance(in KM) --></label>
+        <name>Distance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Eighteen Difi ID --></label>
+        <name>Eighteen_Difi_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Find --></label>
+        <name>Find__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flored Value --></label>
+        <name>Flored_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- GeoLocation --></label>
+        <name>GeoLocation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Image --></label>
+        <name>Image__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Active? --></label>
+        <name>IsActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Aniversery --></label>
+        <name>Is_Aniversery__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Salary Blank? --></label>
+        <name>Is_Salary_Blank__c</name>
+    </fields>
+    <fields>
+        <label><!-- MCeled Value --></label>
+        <name>MCeled_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- MFlored Value --></label>
+        <name>MFlored_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Monthly Income --></label>
+        <name>Monthly_Income__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Notification Sent Date --></label>
+        <name>New_Notification_Sent_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Outlet --></label>
+        <name>Outlet__c</name>
+        <relationshipLabel><!-- Customer --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Pincode --></label>
+        <name>Pincode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Re Activate After Suspension --></label>
+        <name>Re_Activate_After_Suspension__c</name>
+    </fields>
+    <fields>
+        <label><!-- Renewal Date --></label>
+        <name>Renewal_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Retail Shop --></label>
+        <name>Retail_Shop__c</name>
+        <relationshipLabel><!-- Customer --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Rounded Off Value --></label>
+        <name>Rounded_Off_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Session Id --></label>
+        <name>Session_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Session Id --></label>
+        <name>Session_Id_txt__c</name>
+    </fields>
+    <fields>
+        <help><!-- Monthly means only for 1 month.
+Quarterly : 3 months
+Yearly : 8 months
+Unlimited : 48 Months --></help>
+        <label><!-- Subscription Type --></label>
+        <name>Subscription_Type__c</name>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation><!-- Monthly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation><!-- Quarterly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unlimited</masterLabel>
+            <translation><!-- Unlimited --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yearly</masterLabel>
+            <translation><!-- Yearly --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- TimeValue --></label>
+        <name>TimeValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time --></label>
+        <name>Time_Formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type of Customer --></label>
+        <name>Type_of_Customer__c</name>
+        <picklistValues>
+            <masterLabel>Diamond</masterLabel>
+            <translation><!-- Diamond --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation><!-- Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation><!-- Platinum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation><!-- Silver --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- is Subscription Quarterly --></label>
+        <name>is_Subscription_Quarterly__c</name>
+    </fields>
+    <fields>
+        <label><!-- is Text Check --></label>
+        <name>is_Text_Check__c</name>
+    </fields>
+    <layouts>
+        <layout>Admin Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Personal Details --></label>
+            <section>Personal Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Customer Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Personal Details --></label>
+            <section>Personal Details</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Customer&apos;s DOB should be &gt;= 18 --></errorMessage>
+        <name>Age_Validation_on_Customer_DOB</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Date of Joining Cannot be Less than today. --></errorMessage>
+        <name>Date_of_Joining_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please reset the Subscription Type to blank. --></errorMessage>
+        <name>Make_Subscription_Type_as_Blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please choose a Value in Subscription Type. --></errorMessage>
+        <name>Making_Subscription_Type_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please Enter the Re Activation Date for Suspended Customer --></errorMessage>
+        <name>Mandate_Reactivation_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter Valid Pin code. --></errorMessage>
+        <name>Pin_code_Validation</name>
+    </validationRules>
+    <workflowTasks>
+        <name>Deactivate_the_Customer</name>
+        <subject><!-- Deactivate the Customer --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- jsdjsdvjsjdvjvsjvjsdvjvsjdvjd --></description>
+        <name>Have_u_completed_the_Task</name>
+        <subject><!-- Have u completed the Task --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- New Customer had been joined in please take care. --></description>
+        <name>Please_take_care_of_the_New_Customer</name>
+        <subject><!-- Please take care of the New Customer --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

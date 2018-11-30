@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Outlet</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Outlets</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Outlet Owner Email --></label>
+        <name>Outlet_Owner_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q1 Income --></label>
+        <name>Q1_Income__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q2 Income --></label>
+        <name>Q2_Income__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q3 Income --></label>
+        <name>Q3_Income__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q4 income --></label>
+        <name>Q4_income__c</name>
+    </fields>
+    <fields>
+        <label><!-- Retail Shop Name --></label>
+        <name>Retail_Shop__c</name>
+        <relationshipLabel><!-- Outlets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Yearly Income --></label>
+        <name>Yearly_Income__c</name>
+    </fields>
+    <layouts>
+        <layout>Outlet Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Income Details --></label>
+            <section>Income Details</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

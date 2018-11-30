@@ -1,0 +1,84 @@
+<apex:page sidebar="false">
+    <apex:form >
+        <apex:pageblock title="Account Details" tabStyle="Opportunity">
+            <apex:pageBlockSection collapsible="true" title="Related Account Details" columns="3" >
+                <apex:pageBlockSectionItem labelTitle="Details">
+                    test1
+                    test2
+                </apex:pageBlockSectionItem>
+                    
+                <apex:pageBlockSectionItem >
+                    test3
+                    test4
+                    test5
+                </apex:pageBlockSectionItem>
+                
+                <apex:pageBlockSectionItem >
+                    test6
+                    test7
+                    test8
+                    test9
+                </apex:pageBlockSectionItem>
+                
+                <apex:pageBlockSectionItem >
+                    test6
+                    test7
+                    test8
+                    test9
+                </apex:pageBlockSectionItem>
+                
+                <apex:pageBlockSectionItem >
+                    test6
+                    test7
+                    test8
+                    test9
+                </apex:pageBlockSectionItem>
+                
+                <apex:pageBlockSectionItem >
+                    test6
+                    test7
+                    test8
+                    test9
+                </apex:pageBlockSectionItem>
+                
+                <apex:pageBlockSectionItem >
+                    test6
+                    test7
+                    test8
+                    test9
+                </apex:pageBlockSectionItem>
+                
+                <apex:pageBlockSectionItem >
+                    test6
+                    test7
+                    test8
+                    test9
+                </apex:pageBlockSectionItem>
+                
+                <apex:pageBlockSectionItem >
+                    test6
+                    test7
+                    test8
+                    test9
+                </apex:pageBlockSectionItem>
+                
+                <apex:pageBlockSectionItem >
+                    test6
+                    test7
+                    test8
+                    test9
+                </apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+        </apex:pageblock>
+        <apex:pageblock title="Contact Details" tabStyle="Retail_Shop__C">
+            <apex:pageBlockSection >
+            
+            </apex:pageBlockSection>
+        </apex:pageblock>
+        <apex:pageblock title="Opportunity Details" tabStyle="Outlet__C">
+            <apex:pageBlockSection >
+            
+            </apex:pageBlockSection>
+        </apex:pageblock>
+    </apex:form>
+</apex:page>

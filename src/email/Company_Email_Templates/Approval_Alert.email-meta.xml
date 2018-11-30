@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Approver Email</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Company_Letterhead</letterhead>
+    <name>Approval Alert</name>
+    <style>freeForm</style>
+    <subject>Hi {!ApprovalRequest.Process_Approver} an Approval Process is Assigned to you</subject>
+    <textOnly>Hi {!ApprovalRequest.Process_Approver} ,
+
+An approval request from a customer with the following details has been assigned to you , can you please review it and Approve / Reject it.
+
+Details are as follows
+
+Approval Process Name : {!ApprovalRequest.Process_Name}
+Approval Process Step Name :  {!ApprovalRequest.Process_Step_Name}
+Approval Step Comments : {!ApprovalRequest.Comments}
+Approval Step Status : {!ApprovalRequest.Status}
+Approval Requested Date : {!ApprovalRequest.Response_Date}
+
+
+Complaint Details are as follows :
+Complaint no : {!Complain__c.Name}
+Complaint received on :  {!Complain__c.Customer__c}
+Complaint Description : {!Complain__c.Complain_Description__c}
+Complaint Creation Date : {!Complain__c.CreatedDate}
+
+Detail Link : {!Complain__c.Link}
+
+Approver Internal Link :  {!ApprovalRequest.Internal_URL}
+
+Approver External Link : {!ApprovalRequest.External_URL}
+
+
+Thanks and Regards,
+Admin</textOnly>
+    <type>html</type>
+</EmailTemplate>
